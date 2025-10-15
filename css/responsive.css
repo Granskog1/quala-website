@@ -34,24 +34,44 @@
 @media (max-width: 768px) {
     .nav-container {
         padding: 0 15px;
+        flex-wrap: wrap;
+        gap: 10px;
     }
 
     .nav-right {
-        gap: 15px;
+        gap: 8px;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        margin-top: 10px;
     }
 
     .language-switcher {
         gap: 3px;
+        order: 1;
     }
 
     .lang-btn {
-        padding: 4px 8px;
+        padding: 6px 10px;
         font-size: 12px;
+        min-width: 35px;
     }
 
     .login-btn {
-        padding: 8px 15px;
-        font-size: 14px;
+        padding: 6px 12px;
+        font-size: 12px;
+        margin-left: 0;
+        flex: 1;
+        max-width: 120px;
+        text-align: center;
+    }
+
+    .user-login {
+        order: 2;
+    }
+
+    .admin-login {
+        order: 3;
     }
 
     /* Hero Section Mobile */
@@ -169,34 +189,6 @@
         font-size: 1rem;
     }
 
-    /* Testimonials Mobile */
-    .testimonials {
-        padding: 80px 0;
-    }
-
-    .testimonial-card {
-        padding: 30px 20px;
-        margin: 0 15px;
-    }
-
-    .testimonial-header {
-        flex-direction: column;
-        text-align: center;
-        gap: 15px;
-    }
-
-    .testimonial-header h3 {
-        font-size: 1.2rem;
-    }
-
-    blockquote {
-        font-size: 1rem;
-        text-align: left;
-    }
-
-    .testimonial-author {
-        justify-content: center;
-    }
 
     /* Footer Mobile */
     .footer {
@@ -220,8 +212,27 @@
         padding: 0 10px;
     }
 
+    .nav-container {
+        padding: 0 10px;
+    }
+
+    .nav-right {
+        gap: 6px;
+    }
+
+    .login-btn {
+        padding: 5px 10px;
+        font-size: 11px;
+        max-width: 100px;
+    }
+
     .hero-title {
-        font-size: 2.2rem;
+        font-size: 2rem;
+        line-height: 1.1;
+    }
+
+    .hero-subtitle {
+        font-size: 1rem;
     }
 
     .section-title {
@@ -229,8 +240,9 @@
     }
 
     .cta-btn {
-        padding: 10px 20px;
+        padding: 12px 24px;
         font-size: 14px;
+        max-width: 260px;
     }
 
     .partners-grid {
@@ -247,18 +259,13 @@
         height: 50px;
     }
 
-    .testimonial-card {
-        padding: 25px 15px;
-        margin: 0 10px;
+    .feature h3 {
+        font-size: 1.2rem;
     }
 
-    .company-logo {
-        height: 30px;
-    }
-
-    .author-avatar {
-        width: 40px;
-        height: 40px;
+    .partnership-text h2,
+    .rewards-text h2 {
+        font-size: 1.8rem;
     }
 }
 
