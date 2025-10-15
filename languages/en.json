@@ -4,7 +4,8 @@
     "description": "Transform product training with Quala. End isolated training solutions and create a common arena for suppliers and chains."
   },
   "nav": {
-    "login": "Log in"
+    "userLogin": "User Login",
+    "adminLogin": "Admin Login"
   },
   "hero": {
     "title": "We transform product training",

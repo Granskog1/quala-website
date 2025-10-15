@@ -4,7 +4,8 @@
     "description": "Transformer produktopplæring med Quala. Slutt på isolerte opplæringsløsninger og skape en felles arena for leverandører og kjeder."
   },
   "nav": {
-    "login": "Logg inn"
+    "userLogin": "Bruker pålogging",
+    "adminLogin": "Admin pålogging"
   },
   "hero": {
     "title": "Vi transformerer produktopplæring",
