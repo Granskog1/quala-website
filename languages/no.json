@@ -19,14 +19,6 @@
     "rewards": {
       "title": "Belønninger som virker!",
       "description": "Når ansatte fullfører kurs, forbedrer de ikke bare sin kunnskap, men tjener også ekstra belønninger. Disse insentivene oppmuntrer til videre læring, noe som fører til kontinuerlig kunnskapsvekst."
-    },
-    "coins": {
-      "title": "Mynter",
-      "description": "Antall mynter som opptjenes er basert på kurslengde og quiz-resultater. Disse kan brukes til å hente gavekort og spennende varer i Qualas egen belønningsbutikk."
-    },
-    "tickets": {
-      "title": "Lodd",
-      "description": "I likhet med mynter, er loddene som opptjenes basert på kurslengde og quiz-prestasjoner. Ansatte bruker disse loddene til trekning, og får mulighet til å vinne fantastiske premier. Trekning skjer regelmessig, med sesongoppdaterte belønninger."
     }
   },
   "partnership": {

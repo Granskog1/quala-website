@@ -19,14 +19,6 @@
     "rewards": {
       "title": "Rewards that work!",
       "description": "When employees complete courses, they not only enhance their knowledge but also earn additional rewards. These incentives encourage further learning, leading to continuous knowledge growth."
-    },
-    "coins": {
-      "title": "Coins",
-      "description": "The number of coins earned is based on course length and quiz results. These can be used to pick up gift cards and exciting merchandise at Quala's own rewards store."
-    },
-    "tickets": {
-      "title": "Tickets",
-      "description": "Similar to coins, the tickets earned are based on course length and quiz performance. Employees use these tickets for draws, offering chances to win awesome prizes. Draws happen regularly, featuring seasonally updated rewards."
     }
   },
   "partnership": {
