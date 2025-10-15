@@ -97,6 +97,17 @@ body {
     position: relative;
 }
 
+/* Show mobile menu on mobile devices */
+@media (max-width: 768px) {
+    .mobile-menu {
+        display: block;
+    }
+    
+    .desktop-login {
+        display: none !important;
+    }
+}
+
 .hamburger-btn {
     background: none;
     border: none;
