@@ -34,21 +34,16 @@
 @media (max-width: 768px) {
     .nav-container {
         padding: 0 15px;
-        flex-wrap: wrap;
-        gap: 10px;
+        flex-wrap: nowrap;
     }
 
     .nav-right {
-        gap: 8px;
-        flex-wrap: wrap;
-        justify-content: center;
-        width: 100%;
-        margin-top: 10px;
+        gap: 15px;
+        align-items: center;
     }
 
     .language-switcher {
         gap: 3px;
-        order: 1;
     }
 
     .lang-btn {
@@ -57,21 +52,14 @@
         min-width: 35px;
     }
 
-    .login-btn {
-        padding: 6px 12px;
-        font-size: 12px;
-        margin-left: 0;
-        flex: 1;
-        max-width: 120px;
-        text-align: center;
+    /* Hide desktop login buttons on mobile */
+    .desktop-login {
+        display: none;
     }
 
-    .user-login {
-        order: 2;
-    }
-
-    .admin-login {
-        order: 3;
+    /* Show mobile menu on mobile */
+    .mobile-menu {
+        display: block;
     }
 
     /* Hero Section Mobile */

@@ -5,11 +5,52 @@ class QualaWebsite {
     }
 
     init() {
+        this.setupHamburgerMenu();
         this.setupScrollAnimations();
         this.setupSmoothScrolling();
         this.setupFormHandling();
         this.setupImageLazyLoading();
         this.setupAnalytics();
+    }
+
+    setupHamburgerMenu() {
+        // Hamburger menu functionality
+        const hamburgerBtn = document.getElementById('hamburger-btn');
+        const mobileDropdown = document.getElementById('mobile-dropdown');
+
+        if (hamburgerBtn && mobileDropdown) {
+            hamburgerBtn.addEventListener('click', (e) => {
+                e.stopPropagation();
+                
+                // Toggle active states
+                hamburgerBtn.classList.toggle('active');
+                mobileDropdown.classList.toggle('active');
+            });
+
+            // Close menu when clicking outside
+            document.addEventListener('click', (e) => {
+                if (!e.target.closest('.mobile-menu')) {
+                    hamburgerBtn.classList.remove('active');
+                    mobileDropdown.classList.remove('active');
+                }
+            });
+
+            // Close menu when clicking on a menu item
+            mobileDropdown.addEventListener('click', (e) => {
+                if (e.target.classList.contains('mobile-login-btn')) {
+                    hamburgerBtn.classList.remove('active');
+                    mobileDropdown.classList.remove('active');
+                }
+            });
+
+            // Close menu on escape key
+            document.addEventListener('keydown', (e) => {
+                if (e.key === 'Escape') {
+                    hamburgerBtn.classList.remove('active');
+                    mobileDropdown.classList.remove('active');
+                }
+            });
+        }
     }
 
     setupScrollAnimations() {

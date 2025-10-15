@@ -21,8 +21,23 @@
                         <button class="lang-btn active" data-lang="en">EN</button>
                         <button class="lang-btn" data-lang="no">NO</button>
                     </div>
-                    <a href="https://web.qualaapp.com/sign-in" class="login-btn user-login" data-i18n="nav.userLogin">User Login</a>
-                    <a href="https://admin.qualaapp.com/login" class="login-btn admin-login" data-i18n="nav.adminLogin">Admin Login</a>
+                    <!-- Desktop login buttons -->
+                    <div class="desktop-login">
+                        <a href="https://web.qualaapp.com/sign-in" class="login-btn user-login" data-i18n="nav.userLogin">User Login</a>
+                        <a href="https://admin.qualaapp.com/login" class="login-btn admin-login" data-i18n="nav.adminLogin">Admin Login</a>
+                    </div>
+                    <!-- Mobile hamburger menu -->
+                    <div class="mobile-menu">
+                        <button class="hamburger-btn" id="hamburger-btn" aria-label="Toggle menu">
+                            <span class="hamburger-line"></span>
+                            <span class="hamburger-line"></span>
+                            <span class="hamburger-line"></span>
+                        </button>
+                        <div class="mobile-dropdown" id="mobile-dropdown">
+                            <a href="https://web.qualaapp.com/sign-in" class="mobile-login-btn" data-i18n="nav.userLogin">User Login</a>
+                            <a href="https://admin.qualaapp.com/login" class="mobile-login-btn" data-i18n="nav.adminLogin">Admin Login</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </nav>
