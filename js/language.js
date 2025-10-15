@@ -131,20 +131,24 @@ class LanguageManager {
         const keys = key.split('.');
         let translation = this.translations[this.currentLanguage];
         
+        // Navigate through the nested object
         for (const k of keys) {
-            if (translation && translation[k]) {
+            if (translation && translation[k] !== undefined) {
                 translation = translation[k];
             } else {
-                // Fallback to English if Norwegian translation is missing
-                translation = this.translations.en;
-                for (const k of keys) {
-                    if (translation && translation[k]) {
-                        translation = translation[k];
-                    } else {
-                        return null;
+                // Only fallback to English if the current language translation is completely missing
+                if (this.currentLanguage !== 'en' && this.translations.en) {
+                    let englishTranslation = this.translations.en;
+                    for (const fallbackKey of keys) {
+                        if (englishTranslation && englishTranslation[fallbackKey] !== undefined) {
+                            englishTranslation = englishTranslation[fallbackKey];
+                        } else {
+                            return null;
+                        }
                     }
+                    return englishTranslation;
                 }
-                break;
+                return null;
             }
         }
         

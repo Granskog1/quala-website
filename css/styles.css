@@ -70,13 +70,13 @@ body {
 
 .lang-btn.active,
 .lang-btn:hover {
-    background: #007bff;
+    background: #00bcd4;
     color: white;
-    border-color: #007bff;
+    border-color: #00bcd4;
 }
 
 .login-btn {
-    background: #007bff;
+    background: #00bcd4;
     color: white;
     text-decoration: none;
     padding: 10px 20px;
@@ -86,7 +86,7 @@ body {
 }
 
 .login-btn:hover {
-    background: #0056b3;
+    background: #00acc1;
 }
 
 /* Hero Section */
@@ -134,25 +134,25 @@ body {
 }
 
 .cta-btn.primary {
-    background: #007bff;
+    background: #00bcd4;
     color: white;
-    border-color: #007bff;
+    border-color: #00bcd4;
 }
 
 .cta-btn.primary:hover {
-    background: #0056b3;
-    border-color: #0056b3;
+    background: #00acc1;
+    border-color: #00acc1;
     transform: translateY(-2px);
 }
 
 .cta-btn.secondary {
     background: transparent;
-    color: #007bff;
-    border-color: #007bff;
+    color: #00bcd4;
+    border-color: #00bcd4;
 }
 
 .cta-btn.secondary:hover {
-    background: #007bff;
+    background: #00bcd4;
     color: white;
     transform: translateY(-2px);
 }
@@ -202,8 +202,8 @@ body {
 
 .section-tag {
     display: inline-block;
-    background: #e7f3ff;
-    color: #007bff;
+    background: #e0f7fa;
+    color: #00bcd4;
     padding: 8px 16px;
     border-radius: 20px;
     font-size: 14px;
