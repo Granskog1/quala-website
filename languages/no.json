@@ -1,0 +1,57 @@
+{
+  "page": {
+    "title": "Quala - Vi revolusjonerer produktopplæring",
+    "description": "Transformer produktopplæring med Quala. Slutt på isolerte opplæringsløsninger og skape en felles arena for leverandører og kjeder."
+  },
+  "nav": {
+    "login": "Logg inn"
+  },
+  "hero": {
+    "title": "Vi transformerer produktopplæring",
+    "subtitle": "Med Quala er det slutt på isolerte opplæringsløsninger; leverandører og kjeder får en felles arena for produktopplæring og vekst.",
+    "cta": "Kom i gang i dag",
+    "admin": "Admin pålogging"
+  },
+  "learning": {
+    "tag": "LÆRING SOM LØNNER SEG",
+    "title": "Vi skaper ambassadører",
+    "rewards": {
+      "title": "Belønninger som virker!",
+      "description": "Når ansatte fullfører kurs, forbedrer de ikke bare sin kunnskap, men tjener også ekstra belønninger. Disse insentivene oppmuntrer til videre læring, noe som fører til kontinuerlig kunnskapsvekst."
+    },
+    "coins": {
+      "title": "Mynter",
+      "description": "Antall mynter som opptjenes er basert på kurslengde og quiz-resultater. Disse kan brukes til å hente gavekort og spennende varer i Qualas egen belønningsbutikk."
+    },
+    "tickets": {
+      "title": "Lodd",
+      "description": "I likhet med mynter, er loddene som opptjenes basert på kurslengde og quiz-prestasjoner. Ansatte bruker disse loddene til trekning, og får mulighet til å vinne fantastiske premier. Trekning skjer regelmessig, med sesongoppdaterte belønninger."
+    }
+  },
+  "partnership": {
+    "title": "Sterkere sammen",
+    "description": "Quala forbedrer partnerskapet mellom leverandører og handelskjeder for produktopplæring, og sikrer at butikkansatte får dype produktinnsikter. Denne direkte kunnskapsoverføringen fra leverandører øker de ansattes kapasitet til å levere informert og effektfull kundeservice.",
+    "cta": "Kom i gang i dag"
+  },
+  "rewards": {
+    "title": "Mer kunnskap = Mer belønning",
+    "description": "I Qualas belønningssystem fører kunnskapstilegnelse til konkrete belønninger. Å fullføre kurs gir ansatte mynter og lodd, med beløp basert på kurslengde og quiz-utfall. Disse kan byttes mot tiltalende gjenstander, mens lotterier gir muligheter til å vinne større premier i hyppige trekning. Quala oppmuntrer til kontinuerlig læring og belønner flid og kunnskapsutvidelse."
+  },
+  "testimonials": {
+    "title": "Hør det fra våre kunder",
+    "bilxtra": {
+      "title": "En kanal for å nå alle ansatte",
+      "quote": "\"Vi i BilXtra bruker Quala aktivt både til kursing av ansatte, men også ved onboarding av nye ansatte i kjeden. Ved å bruke Quala har vi i BilXtra en effektiv kanal for å nå alle ansatte raskt, og vi er veldig fornøyde med oppfølgingen vi får fra Quala på support og utvikling av tjenesten.\"",
+      "author": "Markedsdirektør i Bilxtra"
+    }
+  },
+  "footer": {
+    "description": "Quala strømlinjeformer produktopplæring ved å bringe kjeder, leverandører og butikkansatte sammen på en enkelt, sammenhengende plattform.",
+    "info": {
+      "title": "Info",
+      "about": "Om oss",
+      "contact": "Kontakt oss"
+    },
+    "copyright": "Quala AS 2024 - Org.nr. 930 555 592"
+  }
+}

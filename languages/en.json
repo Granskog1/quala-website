@@ -1,0 +1,57 @@
+{
+  "page": {
+    "title": "Quala - We revolutionize product training",
+    "description": "Transform product training with Quala. End isolated training solutions and create a common arena for suppliers and chains."
+  },
+  "nav": {
+    "login": "Log in"
+  },
+  "hero": {
+    "title": "We transform product training",
+    "subtitle": "With Quala, there is an end to isolated training solutions; suppliers and chains are given a common arena for product training and growth.",
+    "cta": "Get started today",
+    "admin": "Admin Login"
+  },
+  "learning": {
+    "tag": "LEARNING THAT PAYS OFF",
+    "title": "We create ambassadors",
+    "rewards": {
+      "title": "Rewards that work!",
+      "description": "When employees complete courses, they not only enhance their knowledge but also earn additional rewards. These incentives encourage further learning, leading to continuous knowledge growth."
+    },
+    "coins": {
+      "title": "Coins",
+      "description": "The number of coins earned is based on course length and quiz results. These can be used to pick up gift cards and exciting merchandise at Quala's own rewards store."
+    },
+    "tickets": {
+      "title": "Tickets",
+      "description": "Similar to coins, the tickets earned are based on course length and quiz performance. Employees use these tickets for draws, offering chances to win awesome prizes. Draws happen regularly, featuring seasonally updated rewards."
+    }
+  },
+  "partnership": {
+    "title": "Stronger Together",
+    "description": "Quala enhances the partnership between suppliers and retail chains for product training, ensuring store employees gain deep product insights. This direct knowledge transfer from suppliers boosts employees' capacity to deliver informed and impactful customer service.",
+    "cta": "Get started today"
+  },
+  "rewards": {
+    "title": "More knowledge = More Reward",
+    "description": "In Quala's reward system, gaining knowledge leads to tangible rewards. Completing courses earns employees coins and lottery tickets, with amounts based on course length and quiz outcomes. These can be traded for appealing items, while raffles offer opportunities to win larger prizes in frequent draws. Quala encourages ongoing learning, rewarding diligence and the expansion of knowledge."
+  },
+  "testimonials": {
+    "title": "Hear it from our customers",
+    "bilxtra": {
+      "title": "A channel to reach all employees",
+      "quote": "\"Vi i BilXtra bruker Quala aktivt både til kursing av ansatte, men også ved onboarding av nye ansatte i kjeden. Ved å bruke Quala har vi i BilXtra en effektiv kanal for å nå alle ansatte raskt, og vi er veldig fornøyde med oppfølgingen vi får fra Quala på support og utvikling av tjenesten.\"",
+      "author": "Marketing Director at Bilxtra"
+    }
+  },
+  "footer": {
+    "description": "Quala streamlines product training by bringing chains, suppliers, and store employees together on a single, cohesive platform.",
+    "info": {
+      "title": "Info",
+      "about": "About Us",
+      "contact": "Contact Us"
+    },
+    "copyright": "Quala AS 2024 - VAT 930 555 592"
+  }
+}

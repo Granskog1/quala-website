@@ -1,0 +1,340 @@
+/* Responsive Design */
+
+/* Tablet Styles */
+@media (max-width: 1024px) {
+    .container {
+        padding: 0 15px;
+    }
+
+    .hero-title {
+        font-size: 3rem;
+    }
+
+    .section-title {
+        font-size: 2.2rem;
+    }
+
+    .hero .container,
+    .partnership-content,
+    .rewards-content {
+        gap: 40px;
+    }
+
+    .features-grid {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 40px;
+    }
+
+    .footer-content {
+        gap: 40px;
+    }
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    .nav-container {
+        padding: 0 15px;
+    }
+
+    .nav-right {
+        gap: 15px;
+    }
+
+    .language-switcher {
+        gap: 3px;
+    }
+
+    .lang-btn {
+        padding: 4px 8px;
+        font-size: 12px;
+    }
+
+    .login-btn {
+        padding: 8px 15px;
+        font-size: 14px;
+    }
+
+    /* Hero Section Mobile */
+    .hero {
+        padding: 60px 0;
+    }
+
+    .hero .container {
+        grid-template-columns: 1fr;
+        gap: 40px;
+        text-align: center;
+    }
+
+    .hero-title {
+        font-size: 2.5rem;
+    }
+
+    .hero-subtitle {
+        font-size: 1.1rem;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .cta-btn {
+        padding: 12px 25px;
+        font-size: 15px;
+        width: 100%;
+        max-width: 280px;
+        text-align: center;
+    }
+
+    /* Partners Mobile */
+    .partners {
+        padding: 30px 0;
+    }
+
+    .partners-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .partner-logo {
+        height: 40px;
+    }
+
+    /* Learning Section Mobile */
+    .learning {
+        padding: 80px 0;
+    }
+
+    .section-header {
+        margin-bottom: 60px;
+    }
+
+    .section-title {
+        font-size: 2rem;
+    }
+
+    .features-grid {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .feature {
+        padding: 20px;
+    }
+
+    .feature h3 {
+        font-size: 1.3rem;
+    }
+
+    /* Partnership Section Mobile */
+    .partnership {
+        padding: 80px 0;
+    }
+
+    .partnership-content {
+        grid-template-columns: 1fr;
+        gap: 40px;
+        text-align: center;
+    }
+
+    .partnership-text h2 {
+        font-size: 2rem;
+    }
+
+    .partnership-text p {
+        font-size: 1rem;
+    }
+
+    /* Rewards Section Mobile */
+    .rewards {
+        padding: 80px 0;
+    }
+
+    .rewards-content {
+        grid-template-columns: 1fr;
+        gap: 40px;
+        text-align: center;
+    }
+
+    .rewards-content .rewards-image {
+        order: -1;
+    }
+
+    .rewards-text h2 {
+        font-size: 2rem;
+    }
+
+    .rewards-text p {
+        font-size: 1rem;
+    }
+
+    /* Testimonials Mobile */
+    .testimonials {
+        padding: 80px 0;
+    }
+
+    .testimonial-card {
+        padding: 30px 20px;
+        margin: 0 15px;
+    }
+
+    .testimonial-header {
+        flex-direction: column;
+        text-align: center;
+        gap: 15px;
+    }
+
+    .testimonial-header h3 {
+        font-size: 1.2rem;
+    }
+
+    blockquote {
+        font-size: 1rem;
+        text-align: left;
+    }
+
+    .testimonial-author {
+        justify-content: center;
+    }
+
+    /* Footer Mobile */
+    .footer {
+        padding: 40px 0 20px;
+    }
+
+    .footer-content {
+        grid-template-columns: 1fr;
+        gap: 30px;
+        text-align: center;
+    }
+
+    .footer-brand p {
+        max-width: 100%;
+    }
+}
+
+/* Small Mobile Styles */
+@media (max-width: 480px) {
+    .container {
+        padding: 0 10px;
+    }
+
+    .hero-title {
+        font-size: 2.2rem;
+    }
+
+    .section-title {
+        font-size: 1.8rem;
+    }
+
+    .cta-btn {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+
+    .partners-grid {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .partner-logo {
+        height: 35px;
+    }
+
+    .feature-icon img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .testimonial-card {
+        padding: 25px 15px;
+        margin: 0 10px;
+    }
+
+    .company-logo {
+        height: 30px;
+    }
+
+    .author-avatar {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+/* Landscape Mobile */
+@media (max-width: 768px) and (orientation: landscape) {
+    .hero {
+        padding: 40px 0;
+    }
+
+    .hero-title {
+        font-size: 2.2rem;
+    }
+
+    .hero-subtitle {
+        font-size: 1rem;
+        margin-bottom: 20px;
+    }
+
+    .hero-buttons {
+        flex-direction: row;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .cta-btn {
+        width: auto;
+        max-width: none;
+        padding: 10px 20px;
+    }
+}
+
+/* High DPI Displays */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    .logo-img,
+    .footer-logo {
+        image-rendering: -webkit-optimize-contrast;
+        image-rendering: crisp-edges;
+    }
+}
+
+/* Touch Device Optimizations */
+@media (hover: none) and (pointer: coarse) {
+    .cta-btn:hover,
+    .login-btn:hover,
+    .lang-btn:hover {
+        transform: none;
+    }
+
+    .feature:hover {
+        transform: none;
+    }
+
+    .partner-logo:hover {
+        opacity: 0.7;
+    }
+}
+
+/* Print Styles */
+@media print {
+    .header,
+    .hero-buttons,
+    .footer {
+        display: none;
+    }
+
+    .hero {
+        padding: 20px 0;
+    }
+
+    .section {
+        padding: 20px 0;
+        break-inside: avoid;
+    }
+
+    .testimonial-card {
+        box-shadow: none;
+        border: 1px solid #ccc;
+    }
+}
